@@ -1,0 +1,151 @@
+header {
+    background-image: url("../images/bg-hero-mobile.svg");
+    padding: 20px 15px;
+}
+
+header > section, .section2 {
+    flex-direction: column;
+    text-align: center;
+}
+
+
+img[alt="illustration-mockups"] {
+    width: 90%;
+    margin: auto;
+}
+
+#benefits {
+    margin: 0;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+#benefits>button, #call-action>button {
+    font-size: 14px;
+    margin: 20px 0 50px;
+    padding: 15px 60px;
+    border-radius: 25px;
+}
+
+
+.section1, .section2, .section3 {
+    margin-bottom: 50px;
+    padding: 35px;
+}
+
+.section1, .section3 {
+    flex-direction: column-reverse;
+    text-align: center;
+}
+
+main {
+    margin: 20px 15px 0;
+}
+
+
+#feature1, #feature2, #feature3 {
+    margin: 25px 0 0;
+    font-size: 14px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.section4 {
+    height: 200px;
+}
+
+footer {
+    padding: 200px 15px 50px;
+}
+
+.footer {
+    margin-top: 25px;
+    flex-direction: column;
+}
+
+.footer>div {
+    width: 100%;
+}
+
+.links {
+    margin: 50px 0;
+    display: grid;
+    grid-template: repeat(6, auto)/auto;
+    grid-row-gap: 25px;
+}
+
+.last {
+    text-align: center;
+}
+
+.last>p {
+    position: static;
+}
+
+/* For the screen thas has 375px or less in width */
+@media screen and (max-width:375px) {
+    body {
+        width: 375px;
+    }
+
+    nav>img {
+        width: 100px;
+        height: 15px;
+        align-self: center;
+    }
+
+    nav>button {
+        padding: 15px 30px;
+        font-size: 12px;
+        border-radius: 25px;
+    }
+
+    .section1>img, .section2>img, .section3>img {
+        width: 225px;
+        margin: auto;
+    
+    }
+
+    #call-action {
+        padding: 0 15px;
+        margin: auto;
+        border-radius: 10px;
+        left: 0px;
+    }
+
+}
+
+@media screen and (max-width:900px) and (min-width:376px) {
+    body {
+        width: 100vw;
+    }
+
+    nav>img {
+        width: 150px;
+        height: 25px;
+        align-self: center;
+    }
+
+    nav>button {
+        padding: 15px 35px;
+        font-size: 12px;
+        border-radius: 25px;
+    }
+
+    .section1>img, .section2>img, .section3>img {
+        width:300px;
+        margin: auto;
+    
+    }
+
+    #call-action {
+        width:80%;
+        padding: 10px 15px 0;
+        left: 10%;
+    }
+}
