@@ -9,7 +9,7 @@ This is a solution to the [Huddle landing page with alternating feature blocks c
 
 ### Links
 
-- Live Site URL: (https://your-live-site-url.com)
+- Live Site URL: (https://hichamben.github.io/huddle-landing-page-with-alternating-feature-blocks-master/)
 
 
 ### Built with
